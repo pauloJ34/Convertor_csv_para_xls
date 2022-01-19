@@ -1,13 +1,6 @@
 import pandas as pd
 import csv
-'''
-df = pd.read_csv('Dados_sensores_11_01_22_a_12_01_22.csv')
-#df.head()
 
-
-
-print (df.head())
-'''
 arquivo = open("Dados_sensores_11_01_22_a_12_01_22.csv")
 render= csv.reader(arquivo)
 data=[]
